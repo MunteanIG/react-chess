@@ -1,0 +1,14 @@
+/* Global constants */
+:root {
+    --tile-size : 100px;
+    --light-tile: #EBECD0;
+    --dark-tile: #779556;
+    --bg-color: #302E2B;
+}
+
+/* Global constants for smaller windows */
+@media all and (max-width: 450px){
+    :root{
+        --tile-size: 50px;
+    }
+}
